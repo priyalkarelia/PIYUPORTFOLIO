@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Priyal Karelia - Creative Front-End Web Developer specializing in responsive websites, WordPress, and modern web technologies.">
+    <meta name="keywords" content="Web Developer, Front-End Developer, WordPress, HTML, CSS, JavaScript, Mumbai">
+    <meta name="author" content="Priyal Karelia">
+    
+    <title>Priyal Karelia | Front-End Web Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-name">Priyal</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"/>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+                    </svg>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for opportunities
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Priyal Karelia</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    Creative <span class="typing-text" id="typingText">Front-End Developer</span>
+                </h2>
+                <p class="hero-description">
+                    I build responsive and interactive websites using modern technologies. 
+                    Specialized in translating UI/UX designs into clean, efficient code.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="assets/Priyal_Karelia_Resume.pdf" download class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <div class="card-icon">{ }</div>
+                        <div class="card-text">Clean Code</div>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <div class="card-icon">📱</div>
+                        <div class="card-text">Responsive</div>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-text">Fast Load</div>
+                    </div>
+                </div>
+                <div class="metallic-orb"></div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Languages -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">💻</span>
+                        Languages
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-card" data-skill="html">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M12 18.178l-4.62-1.256-.328-3.544h2.27l.158 1.844 2.52.667 2.52-.667.26-2.063H6.96l-.635-6.678h11.35l-.227 2.21H8.822l.204 2.256h8.217l-.624 6.778L12 18.178zM3 2h18l-1.623 18L12 22l-7.377-2L3 2z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">HTML</span>
+                        </div>
+                        <div class="skill-card" data-skill="css">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M4.19 3h15.62l-1.42 16-6.39 1.8-6.39-1.8L4.19 3zm3.53 6.72l.38 4.28 4.9 1.34 4.9-1.34.54-6.12-10.72-.16z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">CSS</span>
+                        </div>
+                        <div class="skill-card" data-skill="javascript">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.611 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-card" data-skill="sql">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4zM4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4zm0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CMS & Tools -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🛠️</span>
+                        CMS & Tools
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-card" data-skill="wordpress">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M12.158 12.786L9.46 20.625c.806.237 1.657.366 2.54.366 1.047 0 2.051-.18 2.986-.51-.024-.038-.046-.078-.065-.123l-2.76-7.572zM3.009 12c0 3.559 2.068 6.634 5.067 8.092L3.788 8.341C3.289 9.459 3.009 10.696 3.009 12zm15.54.849l-3.26 9.451c2.846-1.658 4.76-4.744 4.76-8.3 0-.66-.067-1.303-.193-1.923l.003.008c-.402 1.077-1.088 2.701-1.31 3.764zM12 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">WordPress</span>
+                        </div>
+                        <div class="skill-card" data-skill="shopify">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M15.337 2.1c-.253.018-.548.072-.843.144-.018-.036-.054-.072-.072-.09-.415-.396-1.008-.54-1.62-.54-.036 0-.072 0-.09.018-.036 0-.054-.018-.072-.036-.27-.27-.612-.396-.991-.396-1.062 0-2.123.936-2.987 2.628-.594 1.152-1.044 2.07-1.332 2.628-.828.27-1.404.45-1.44.468-.414.144-.432.162-.486.54-.036.307-1.044 8.028-1.044 8.028L12.87 22l8.874-1.98s-3.24-21.762-3.276-21.798c-.036-.054-.072-.072-.126-.09-.054-.018-.198-.018-.252-.018l.252-.018zm-1.566 1.548c-.18.054-.396.126-.63.198l.018-.018c-.072-1.26-.378-1.998-.702-2.448.594.18 1.062.9 1.314 2.268zM12.33 3.936c.234-.072.468-.144.702-.216-.252-.576-.612-1.152-1.134-1.53-.018 0-.018-.018-.036-.018v.036c0 .774.144 1.44.468 1.728zm-.666.216v.036c-.234.072-.486.144-.738.216.198-.756.54-1.494 1.008-2.034.18-.216.414-.45.684-.612-.27.432-.522 1.17-.954 2.394z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Shopify</span>
+                        </div>
+                        <div class="skill-card" data-skill="figma">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M8 2C6.35 2 5 3.35 5 5c0 1.65 1.35 3 3 3h3V2H8zm0 6c-1.65 0-3 1.35-3 3s1.35 3 3 3h3V8H8zm8-6h-3v6h3c1.65 0 3-1.35 3-3s-1.35-3-3-3zm-3 8v6h3c1.65 0 3-1.35 3-3s-1.35-3-3-3h-3zm-5 6c0 1.65 1.35 3 3 3s3-1.35 3-3v-3H8c-1.65 0-3 1.35-3 3z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Figma</span>
+                        </div>
+                        <div class="skill-card" data-skill="git">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                    <path d="M21.62 11.108l-8.731-8.729c-.57-.57-1.472-.57-2.043 0L9.257 3.97l2.359 2.36c.607-.216 1.302-.071 1.783.45.484.486.611 1.191.384 1.816l2.41 2.411c.625-.226 1.33-.1 1.815.385.682.682.682 1.792 0 2.474-.683.683-1.792.683-2.475 0-.51-.51-.634-1.259-.371-1.886l-2.247-2.247v5.916c.166.082.322.18.469.327.682.682.682 1.792 0 2.474-.683.683-1.792.683-2.475 0-.682-.682-.682-1.792 0-2.474.167-.167.36-.297.568-.393V9.668c-.209-.097-.401-.227-.568-.394-.512-.512-.634-1.266-.368-1.894L8.53 5.443 2.38 11.594c-.57.57-.57 1.472 0 2.043l8.732 8.729c.57.57 1.472.57 2.042 0l8.466-8.463c.571-.57.571-1.473 0-2.043"/>
+                                </svg>
+                            </div>
+                            <span class="skill-name">Webflow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🤝</span>
+                        Soft Skills
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-card">
+                            <div class="skill-icon">👥</div>
+                            <span class="skill-name">Leadership</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🤝</div>
+                            <span class="skill-name">Teamwork</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">💡</div>
+                            <span class="skill-name">Creativity</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎯</div>
+                            <span class="skill-name">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My journey</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <div class="company-logo">VT</div>
+                                <div class="company-info">
+                                    <h3>Viram Tech</h3>
+                                    <p class="job-title">Web Developer</p>
+                                </div>
+                            </div>
+                            <span class="timeline-date">Nov 2025 - Jan 2026</span>
+                        </div>
+                        <ul class="timeline-responsibilities">
+                            <li>Developed and maintained responsive websites using WordPress and modern front-end technologies</li>
+                            <li>Enhanced user experience through website customization, updates, and troubleshooting</li>
+                            <li>Ensured cross-browser compatibility and implemented performance optimizations</li>
+                            <li>Collaborated with clients to deliver projects within tight deadlines</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <div class="company-logo">UT</div>
+                                <div class="company-info">
+                                    <h3>Unlock Technologies</h3>
+                                    <p class="job-title">Web Designer</p>
+                                </div>
+                            </div>
+                            <span class="timeline-date">Jan 2024 - Sept 2024</span>
+                        </div>
+                        <ul class="timeline-responsibilities">
+                            <li>Assisted in designing and developing responsive web pages using HTML, CSS, and JavaScript</li>
+                            <li>Worked closely with senior designers to create user-friendly UI/UX designs</li>
+                            <li>Gained hands-on experience in wireframing and prototyping using Figma and Adobe XD</li>
+                            <li>Optimized web pages for performance, accessibility, and cross-browser compatibility</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">HTML/CSS/JS</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">Here are some of the projects I've worked on. Each project showcases different skills and technologies.</p>
+            </div>
+            
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded from JS for easy management -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">I'm currently available for freelance work and full-time opportunities. Let's create something amazing together!</p>
+            </div>
+            
+            <div class="contact-content-centered">
+                <div class="social-links-centered">
+                    <a href="https://github.com/priyalkarelia" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/priyalkarelia" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14m-.5 15.5v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-name">Priyal</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </div>
+                    <p>Building digital experiences that matter.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Priyal Karelia. Built with passion and code.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
