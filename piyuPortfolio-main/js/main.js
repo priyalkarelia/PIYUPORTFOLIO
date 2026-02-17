@@ -4,22 +4,22 @@
 const projects = [
     {
         id: 1,
-        title: "E-Commerce Website",
-        description: "A fully responsive e-commerce platform built with WordPress and WooCommerce featuring product catalog, cart functionality, and payment integration.",
-        technologies: ["WordPress", "WooCommerce", "CSS", "JavaScript"],
+        title: "Re-poly Lamps",
+        description: "An eco-friendly brand dedicated to reducing plastic waste by repurposing PET bottles into unique handcrafted lamps.",
+        technologies: ["HTML", "CSS", "JavaScript"],
         image: "gradient-1", // Will use gradient placeholder
-        demoUrl: "#",
-        githubUrl: "https://github.com/priyalkarelia",
+        demoUrl: "https://repoly-ecommerce.vercel.app/",
+        githubUrl: "https://github.com/priyalkarelia/repoly-ecommerce",
         featured: true
     },
     {
         id: 2,
-        title: "Business Landing Page",
-        description: "Modern landing page for a tech startup with smooth animations, contact forms, and fully responsive design optimized for conversions.",
-        technologies: ["HTML", "CSS", "JavaScript", "Responsive"],
+        title: "Bakery website",
+        description: "A responsive bakery website focused on elegant user interface design, smooth navigation, and an engaging customer experience.",
+        technologies: ["HTML", "CSS", "Responsive"],
         image: "gradient-2",
-        demoUrl: "#",
-        githubUrl: "https://github.com/priyalkarelia",
+        demoUrl: "https://uiuxbakery.vercel.app/",
+        githubUrl: "https://github.com/priyalkarelia/image",
         featured: true
     },
     {
@@ -28,18 +28,18 @@ const projects = [
         description: "Clean and minimal portfolio website for a creative professional showcasing projects with beautiful image galleries and smooth transitions.",
         technologies: ["HTML", "CSS", "JavaScript", "Figma"],
         image: "gradient-3",
-        demoUrl: "#",
-        githubUrl: "https://github.com/priyalkarelia",
+        demoUrl: "https://priyalkarelia.vercel.app/",
+        githubUrl: "https://github.com/priyalkarelia/PIYUPORTFOLIO",
         featured: true
     },
     {
         id: 4,
-        title: "Restaurant Website",
-        description: "Interactive restaurant website with online menu, reservation system, and location map integration built on WordPress.",
-        technologies: ["WordPress", "PHP", "MySQL", "CSS"],
+        title: "To-Do List",
+        description: "A responsive To-Do List web application built using HTML, CSS, and JavaScript that allows users to add, edit, delete, and manage daily tasks efficiently.",
+        technologies: ["Node Js", "HTML", "CSS", "JavaScript"],
         image: "gradient-4",
-        demoUrl: "#",
-        githubUrl: "https://github.com/priyalkarelia",
+        demoUrl: "https://to-do-list-mu-five-68.vercel.app/",
+        githubUrl: "https://github.com/priyalkarelia/To-Do-List",
         featured: false
     }
 ];
